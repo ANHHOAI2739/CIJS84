@@ -1,0 +1,60 @@
+.container {
+    height: 300px;
+    width: 800px;
+    border: 1px solid black;
+    border-radius: 12px;
+    margin: auto;
+    margin-top: 35px;
+    color: #FFFFFF;
+    background-color: #897BDA;
+    font-size: 20px;
+}
+
+
+.input-container{
+    width: 740px;
+    height: 200px;
+    margin: auto;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+
+.inputForm {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.input {
+    width: 570px;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+}
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    width: 190px;
+    margin-top: 10px;
+    margin-left: 570px;
+}
+.add {
+    width: 70px;
+    height: 40px;
+    background-color: #862796;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 12px;
+}
+.cancel {
+    width: 100px;
+    height: 40px;
+    background-color: #E5E5E5;
+    border: none;
+    border-radius: 12px;
+}
+

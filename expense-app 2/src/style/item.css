@@ -1,0 +1,33 @@
+.main-item {
+    width: 740px;
+    height: 135px;
+    background-color: #575757;
+    border-radius: 12px;
+    margin: auto;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.date {
+    width: 114px;
+    height: 114px;
+    border: 2px solid #ffffff;
+    border-radius: 12px;
+    background-color: #1A1A1A;
+    margin-left: 10px;
+}
+.content {
+    box-sizing: border-box;
+    width: 520px;
+    font-size: 36px;
+    font-weight: bold;
+}
+.amount {
+    border: 2px solid #ffffff;
+    border-radius: 12px;
+    background-color: #862796;
+    box-sizing: content-box;
+    padding: 5px 10px 5px 10px;
+    margin-right: 10px;
+}
