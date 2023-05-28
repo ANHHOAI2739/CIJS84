@@ -1,0 +1,39 @@
+.input {
+    height: 40px;
+    width: 400px;
+    font-size: 20px;
+    border: none;
+    border-bottom: 1px solid lightgrey;
+    margin-bottom: 20px;
+}
+
+.checkbox-round {
+    width: 1.3em;
+    height: 1.3em;
+    background-color: white;
+    border-radius: 50%;
+    vertical-align: middle;
+    border: 1px solid #ddd;
+    appearance: none;
+    -webkit-appearance: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.checkbox-round:checked {
+    background-color: lightgrey;
+}
+
+
+label {
+    font-size: 20px;
+    vertical-align: middle;
+    color: gray;
+}
+
+.head {
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}

@@ -1,0 +1,36 @@
+.expense-chart{
+    width: 740px;
+    height: 200px;
+    background-color: #E1CAE4;
+    margin: auto;
+    margin-top: 30px;
+    border-radius: 12px;
+}
+
+.all-chart{
+    display: flex;
+    justify-content: space-around;
+}
+.child-chart{
+    display:flex; 
+    flex-direction: column;
+}
+.chart-position{
+    position: relative;
+}
+.chart{
+    border: 1px solid black;
+    width: 20px;
+    height: 140px;
+    border-radius: 50px;
+    margin-top: 20px;
+}
+.chart-clone{
+    position: absolute;
+    width: 20px;
+    /* height: 10%; */
+    border-radius: 50px;
+    bottom: 0;
+    /* border: 1px solid purple; */
+    background-color: purple;
+}
